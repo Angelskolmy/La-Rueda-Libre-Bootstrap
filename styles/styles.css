@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+
+    /* pañeta de colores */
+
+    --Btn1yEnlaces: #1E7A4F;
+    --Btn2YDestacado: #F39A2B;
+    --TitulosySubtitulos: #14213D;
+    --BackgroundPage: #faf1e1;
+    --TextoGeneral: #aeaeae;
+
+    /* fuentes google */
+
+    --Titulos: "Montserrat", sans-serif;
+    --Textos: "Open Sans", sans-serif;
+}
+
+
+.yigdrasil{ 
+    margin: 0; 
+    padding: 0; 
+    background-color: antiquewhite;
+}  
+
+.menuNaber{
+    background-color: var(--TitulosySubtitulos); 
+    border-bottom: 2px solid var(--Btn2YDestacado);
+} 
+
+.ecualiseRs{
+    background-color: var(--Btn2YDestacado);
+} 
+
+.optionNav11{ 
+
+    color: var(--BackgroundPage); 
+    font-size: 14px; 
+    font-family: var(--Titulos);  
+    font-weight: 700; 
+    position: relative;
+    
+} 
+
+.optionNav11:hover{ 
+    color: var(--Btn1yEnlaces);
+} 
+
+.particularBrandName{
+    color: var(--Btn2YDestacado); 
+    font-family: var(--Titulos); 
+    font-weight: 700;  
+    font-size: 20px; 
+    position: relative;
+
+} 
+
+.particularBrandName:hover{ 
+    color: var(--Btn1yEnlaces);
+} 
+
+.alquemax{ 
+    position: sticky; 
+    top: 0; 
+    z-index: 100;
+} 
+
+.leviathan{
+    padding: 1rem; 
+    margin: 0;
+}
+
