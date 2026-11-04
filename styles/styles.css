@@ -199,7 +199,8 @@
     inset: 0; 
     position: absolute; 
     z-index: 0; 
-    background-color: rgba(0, 0, 0, 0.733);
+    background-color: rgba(0, 0, 0, 0.733); 
+    border-bottom: 2px solid var(--Btn2YDestacado);
 } 
 
 .intendcarrusel{ 
@@ -229,4 +230,188 @@
     font-weight: 500; 
     font-family: var(--Textos); 
     font-size: 20px;
+} 
+
+.itemfooter{
+    margin-left: 0; 
+    margin-bottom: 0.7rem; 
+    color: var(--BackgroundPage); 
+    font-family: var(--Textos); 
+    
+} 
+
+.listlinksFooter{
+    padding: 0; 
+} 
+
+.titlefooter{
+    margin-bottom: 1rem; 
+    font-family: var(--Titulos); 
+    color: var(--TextoGeneral); 
+    font-weight: 700; 
+    font-size: 18px; 
+    text-decoration: underline var(--Btn2YDestacado); 
+    text-underline-offset: 10px;
+}  
+
+.titlefooter:hover{
+
+    color: var(--Btn2YDestacado);
+}
+
+.locke{ 
+    box-sizing: border-box;
+    background-color: var(--TitulosySubtitulos); 
+    padding: 2rem
+} 
+
+.tarifas-section {
+    background:
+        linear-gradient(rgba(20, 33, 61, 0.3), rgba(20, 33, 61, 0.3)),
+        url("../resources/imgCarrusel/titelcarrusel.jpg") center / cover;
+}
+
+.tarifas-frame {
+    overflow: hidden;
+    border: 1px solid var(--Btn2YDestacado);
+    border-radius: 0.75rem; 
+    position: relative; 
+    z-index: 1;
+}
+
+.tarifas-table {
+    --bs-table-color: var(--BackgroundPage);
+    --bs-table-bg: var(--TitulosySubtitulos);
+    --bs-table-striped-color: var(--BackgroundPage);
+    --bs-table-striped-bg: #273550;
+    --bs-table-border-color: rgba(250, 241, 225, 0.2);
+
+    min-width: 680px;
+}
+
+.tarifas-table thead th {
+    color: var(--BackgroundPage);
+    background-color: #48546d;
+    white-space: nowrap;
+}
+
+.tarifas-table tbody th {
+    color: var(--Btn2YDestacado);
+    white-space: nowrap;
+}
+
+.tarifas-table tbody td {
+    white-space: nowrap;
+} 
+
+.kokutos{ 
+    margin-bottom: 1rem; 
+    font-family: var(--Titulos);
+    font-weight: 700; 
+    font-size: 36px; 
+    color: var(--TitulosySubtitulos); 
+    position: relative; 
+    z-index: 1;
+}  
+
+
+.shaltear{ 
+
+    font-family: var(--Titulos); 
+    font-weight: 700; 
+    color: var(--TitulosySubtitulos); 
+    font-size: 24px; 
+    position: relative; 
+    z-index: 1;
+
+} 
+
+.nashor{
+    background-image: url("../resources/fondotarifassection.jpeg"); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 100%; 
+    z-index: 1; 
+    position: relative; 
+    border-bottom: 2px solid var(--Btn2YDestacado); 
+    
+} 
+
+.nashor::after{ 
+    inset: 0; 
+    content: ""; 
+    z-index: 0; 
+    position: absolute; 
+    background-color: rgba(0, 0, 0, 0.272); 
+    pointer-events: none;
+} 
+
+.Dart100{
+
+    width: 370px;  
+    height: 100%;
+    background-color: #081021; 
+    border: 2px solid var(--Btn2YDestacado);
+} 
+
+.terminus .Dart100 .card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.terminus{
+    padding: 3rem;
+} 
+
+.terminus h3{
+    font-family: var(--TitulosySubtitulos); 
+    font-weight: 700; 
+    font-size: 35px; 
+    margin-bottom: 2rem; 
+    display: flex; 
+    justify-content: center;
+
+} 
+
+.cardaker{
+    height: 300px; 
+    border: 2px solid var(--Btn2YDestacado);
+} 
+
+.Dart100 h5{  
+
+    font-family: var(--Titulos); 
+    font-size: 18px; 
+    font-weight: 700; 
+    color: var(--Btn2YDestacado); 
+    text-decoration: underline; 
+    text-underline-offset: 6px; 
+    margin-top: 1.5rem; 
+    margin-bottom: 3.2rem;
+
+} 
+
+.price{ 
+
+    font-family: var(--Titulos); 
+    color: var(--TextoGeneral); 
+    font-weight: 700;  
+    margin-bottom: 1.7rem; 
+    font-size: 15px;
+
+} 
+
+.astel{
+    font-family: var(--Textos); 
+    font-weight: 500;  
+    font-size: 13px; 
+    color: var(--BackgroundPage); 
+    text-align: justify; 
+    margin-bottom: 1rem;
+
+} 
+
+.randuin{ 
+    align-items: end;
 }
