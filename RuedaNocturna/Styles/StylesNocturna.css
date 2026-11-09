@@ -1,0 +1,176 @@
+@import "tailwindcss";
+
+.navbar-collapse {
+    visibility: visible;
+}
+
+:root {
+  
+  --verde-ruta: #1E7A4F;
+  --naranja-pedal: #F39A2B;
+  --azul-noche: #0B0D16;
+  --crema: #FAF6EF;
+  --gris-asfalto: #5B6470;
+  --amarillo-farol: #FFD166;
+
+  
+  --bg: #FAF6EF;                  
+  --surf: #FFFFFF;               
+  --ink: #13203f;                 
+  --txt: #bcbcbc;                 
+  --line: rgba(20, 33, 61, .15);  
+  --btn: #1e915b;                 
+  --btnTxt: #FFFFFF;              
+
+  /* Fuentes */
+  --font-titulos: "Montserrat", sans-serif;
+  --font-textos: "Open Sans", sans-serif;
+}
+
+@theme {
+  --color-superficie: #14213D;
+  --color-tinta: #FAF6EF;
+  --color-texto: #B8C2D1;
+  --color-ruta: #1E915B;
+  --color-sobreruta: #0B0D16;
+  --color-linea: #38445D;
+  --color-pedal: #F39A2B;
+  --color-noche: #0B0D16;
+  --font-titulos: "Montserrat", sans-serif;
+}
+
+.rakuenlord{ 
+    background-color: var(--azul-noche); 
+    padding: 2rem;
+    
+} 
+
+.jagerjack{ 
+
+    color: var(--ink); 
+    background-color: var(--amarillo-farol); 
+    font-size: 15px; 
+    border-radius: 12px;
+} 
+
+.anclaso{ 
+    font-family: var(--font-titulos); 
+    font-size: 47px; 
+    font-weight: 900; 
+    color: var(--bg);
+} 
+
+.rkata{ 
+    font-size: 20px; 
+    font-family: var(--font-titulos); 
+    font-weight: 500; 
+    color: var(--txt);
+} 
+
+.andlia{ 
+    background-color: var(--ink); 
+    font-size: 19px; 
+    font-weight: 700; 
+    color: var(--crema); 
+    border: 0.5px solid var(--gris-asfalto); 
+    border-radius: 18px;
+} 
+
+.rolor{ 
+    font-family: var(--font-textos); 
+    font-size: 19px;  
+    font-weight: 600; 
+    background-color: var(--btn);  
+    color: var(--azul-noche);  
+    border-radius: 14px; 
+    
+} 
+
+.maegor{ 
+    font-family: var(--font-textos); 
+    font-size: 19px;  
+    font-weight: 600; 
+    background-color: var(--azul-noche);  
+    color: var(--bg);  
+    border: 1px solid var(--btn); 
+    border-radius: 14px;
+} 
+
+.maegor:hover{ 
+
+    background-color: var(--ink);
+}
+
+.rolor:hover{
+    box-shadow: 0 0 15px var(--btn);
+  transform: translateY(-2px);
+} 
+
+.alquimist{
+    background-color: var(--azul-noche); 
+    padding: 3.5rem;
+} 
+
+.imgloc{ 
+    background-image: url("../Resources/card1.jpg"); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+} 
+
+.imgloc2{ 
+    background-image: url("../Resources/card2.jpg"); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+
+.imgloc3{ 
+    background-image: url("../Resources/card3.jpg"); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+} 
+
+.tuqi{ 
+    text-decoration: none; 
+    color: var(--bg);
+} 
+
+.toke{
+    color: var(--bg); 
+    font-size: 40px; 
+    font-family: var(--font-titulos); 
+    font-weight: 700;
+} 
+
+.lor3{ 
+    color: var(--bg); 
+    font-size: 20px; 
+    font-family: var(--font-textos); 
+    font-weight: 50; 
+    margin-top: 1rem; 
+    text-align: justify;
+} 
+
+.section45{ 
+    color: var(--bg); 
+    font-size: 40px; 
+    font-family: var(--font-titulos); 
+    font-weight: 700; 
+    margin-bottom: 4rem;
+} 
+
+.tokioo{ 
+
+    color: var(--bg); 
+    font-size: 40px; 
+    font-family: var(--font-titulos); 
+    font-weight: 700; 
+    margin-bottom: 4rem;
+} 
+
+.ergosd{
+    background-color: var(--ink);
+} 
+
+.louer{
+    border-radius: 12px;
+}

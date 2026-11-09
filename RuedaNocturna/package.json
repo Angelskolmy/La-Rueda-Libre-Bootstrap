@@ -1,0 +1,12 @@
+{
+  "name": "ruedanocturna",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i ./Styles/StylesNocturna.css -o ./Styles/output.css --watch",
+    "build": "npx @tailwindcss/cli -i ./Styles/StylesNocturna.css -o ./Styles/output.css --minify"
+  },
+  "dependencies": {
+    "tailwindcss": "^4.3.5",
+    "@tailwindcss/cli": "^4.3.5"
+  }
+}
